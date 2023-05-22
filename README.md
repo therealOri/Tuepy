@@ -7,9 +7,24 @@ __ __
 <br>
 <br>
 
-# Installation
+# Installation & Links
 ```
+git clone https://github.com/therealOri/Tuepy.git
+cd Tuepy
+virtualenv tpyENV
+source tpyENV
+pip install -r requirements.txt
 ```
+> If you don't have `virtualenv` you can install it via pip. `pip install virtualenv`.
+__ __
+
+<br>
+<br>
+
+You will also need `vlc` or `mpv` installed in order to play videos.
+- [vlc](https://www.videolan.org/vlc/)
+- [mpv](https://mpv.io/)
+> If you are using linux, you can install one or both using your package manager or software installer.
 __ __
 
 
