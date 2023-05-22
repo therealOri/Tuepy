@@ -1,5 +1,5 @@
 # Tuepy
-Tuepy allows you to download and play youtube videos. Like all of the online video downloaders, except written in python3 and terminal based and not hosted on a shady website. If youtube wants to stop users from using ad-blockers then might as well just download the videos and watch them for your personal enjoyment. Bypassing the ads completely.
+Tuepy allows you to download and play youtube videos. Like all of the online video downloaders, except written in python3, terminal based, not hosted on a shady website that you have to trust is giving you what you are asking for, and open source. If youtube wants to stop users from using ad-blockers then might as well just download the videos and watch them for your personal enjoyment. Bypassing the ads completely.
 
 What you download and what you do with the video after downloading is completely on you. I am not to be held liable or responsible for the content people/you download using this code and the "yt_dlp" package.
 __ __
