@@ -120,7 +120,7 @@ def main():
                 continue
             else:
                 clear()
-                input('No valid media player has been found. Please make sure "mpv" or "vlc" is installed.')
+                input('No valid media player has been found. Please make sure "mpv" or "vlc" is installed.\n\nPress "enter" to continue...')
                 clear()
                 continue
 
