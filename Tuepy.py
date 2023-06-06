@@ -39,6 +39,10 @@ def download_video(url, output_dir=None):
     ydl_opts = {
         'format': f'bestvideo[ext={video_extension}]+bestaudio[ext={audio_extension}]/best[ext={video_extension}]/best',
         'outtmpl': os.path.join(output_dir, '%(title)s.%(ext)s') if output_dir else '%(title)s.%(ext)s',
+        'postprocessors': [{
+            'key': 'FFmpegVideoConvertor',
+            'preferedformat': 'avi'
+        }]
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
